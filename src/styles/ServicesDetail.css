@@ -1,0 +1,33 @@
+.service-detail-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .service-detail-title {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .service-detail-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .service-detail-description {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .service-features {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .service-features li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #444;
+  }
+  

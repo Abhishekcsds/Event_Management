@@ -1,0 +1,29 @@
+.carousel .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel .col-md-4 {
+    padding: 25px;
+  }
+  
+
+  
+
+  .carousel {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.carousel .carousel-inner {
+    width: 100%;
+}
+
+.carousel img {
+    width: 100%;
+    height: 80vh; /* Makes it take the full viewport height */
+    object-fit: cover; /* Ensures the image covers the full width without distortion */
+    border-radius: 0; /* Removes any rounded corners */
+}

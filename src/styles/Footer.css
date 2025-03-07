@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    justify-content: space-between;  /* Evenly spaces items */
+    align-items: center;  /* Aligns items in the center vertically */
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    flex-wrap: wrap;  /* Ensures responsiveness */
+  }
+  
+  .footer-title {
+    flex: 1; /* Each section takes equal width */
+    text-align: center; /* Centers text inside each div */
+    padding: 10px;
+  }
+  
+  .footer-title h2, 
+  .footer-title h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer li {
+    margin: 5px 0;
+  }
+  
+  .title-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adds space between icons */
+    font-size: 24px;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column; /* Stacks divs vertically on small screens */
+      text-align: center;
+    }
+  }
+  

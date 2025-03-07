@@ -1,0 +1,24 @@
+.sticky-nav {
+    background: #333;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.items-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-buttons {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.search {
+    border-radius: 5px;
+    padding: 5px;
+}
